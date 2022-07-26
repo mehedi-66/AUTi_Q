@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	box-sizing: boder-box;
+	color: white;
+}
+body{
+	background: url(/images/bg.svg);
+    background-color: #20003a;
+	 
+}
+/* ****** Heading ******** */
+.heading{
+	width: 100%;
+    height: 70px;
+    box-sizing: border-box;
+    padding: 5px;
+    
+}
+.heading-left{
+	float: left;
+    width: 60px;
+    margin: 15px 10px 10px 40px;
+}
+.heading-right{
+	float: right;
+    width: 392px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+.heading-right > p > a{
+	text-decoration: none;
+}
+.logo{
+	width: 150px;
+    height: 110px;
+    margin: -37px;
+    margin-left: 10px;
+}
+
+/* ******** Main *********** */
+
+.main{
+
+	width: 100%;
+	margin: 93px 0px;
+}
+.container{
+	margin: 0 auto;
+	margin-top: 25px;
+    width: 44%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+	width: 50%;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding: 30px;
+    height: 83px;
+    border: 1px solid #2a2929;
+    background: #464445;
+    cursor: pointer;
+    margin-right: 18px;
+    box-shadow: 3px 2px 3px #70014d;
+    border-radius: 24px;
+}
+.box:hover{
+	background: #3d8100;
+}
+.box1{
+	
+}
+.box2{
+	
+}
+
+.learning{
+	display: none;
+}
+
+.IqQuiz{
+	display: none;
+}
+.activeColor{
+	background: #b30052
+}
+
+.active{
+	margin: 23px auto;
+   
+    width: 70%;
+    height: 151px;
+    display: flex;
+    
+    justify-content: space-evenly;
+
+}
+
+.box-card{
+	    margin-right: 2px;
+    background: #b30052;
+    width: 206px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 12px;
+    box-shadow: 1px 3px 5px #000000;
+    padding: 61px 1px 1px 1px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
