@@ -2,8 +2,7 @@
 <p>The goal of our project is to increase the IQ level and to determine the fields of their interest. Tech - JAVA, Spring boot, Spring security, JPA, MySQL, JSP</p>
 <h2> play the video </h2>
 <img src="home.png" />
-Video Link: https://www.youtube.com/watch?v=mnyGCHNIKVA
-
+Video Link: https://www.youtube.com/watch?v=xrMonjL2BCE&t=3s
 <br> <br> <br>
 
 <h2>To run the Project</h2>
